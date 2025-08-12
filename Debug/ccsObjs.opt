@@ -1,0 +1,16 @@
+"./PTZ_controller.o"
+"./main.o"
+"./motor.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./uart_handler.o"
+"./4_4_KEY/HW_key.o"
+"./Drivers/LSM6DSV16X/lsm6dsv16x.o"
+"./Drivers/LSM6DSV16X/lsm6dsv16x_reg.o"
+"./Drivers/MSPM0/clock.o"
+"./Drivers/MSPM0/interrupt.o"
+"./Drivers/OLED_Hardware_I2C/oled_hardware_i2c.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
+-l"/Applications/ti/mspm0_sdk_2_05_00_05/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/driverlib.a"
